@@ -4,7 +4,7 @@
 
 # Sentinel — Vibe Coding 的思考作業系統
 
-> 一個 Claude Code skill，扮演資深工程師的「思考層」——在你貼補丁、在淺層打轉、賭資安僥倖之前先喊停。讓AI在正式 coding**之前**就開始思考。
+> 一個 Claude Code skill，扮演資深工程師的「思考層」——在你貼補丁、在淺層打轉、賭資安僥倖之前先喊停。讓AI在正式 coding**之前**就開始思考。配對 [Compass](https://github.com/RayLi-Git/compass) 形成完整工具組：Sentinel 看「怎麼想」，Compass 看「怎麼照規格執行」。
 
 ![status](https://img.shields.io/badge/status-active-success)
 ![license](https://img.shields.io/badge/license-MIT-blue)

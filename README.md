@@ -4,7 +4,7 @@
 
 # Sentinel — A Thinking OS for Vibe Coding
 
-> A Claude Code skill that acts as a senior engineer's thinking layer — stopping you from patching symptoms, looping at the surface, and shipping security gambles. It thinks *before* the code is written.
+> A Claude Code skill that acts as a senior engineer's thinking layer — stopping you from patching symptoms, looping at the surface, and shipping security gambles. It thinks *before* the code is written. Pairs with [Compass](https://github.com/RayLi-Git/compass) to form a complete toolkit: Sentinel watches "how you think," Compass watches "how you execute to spec."
 
 ![status](https://img.shields.io/badge/status-active-success)
 ![license](https://img.shields.io/badge/license-MIT-blue)
