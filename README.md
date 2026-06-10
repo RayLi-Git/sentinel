@@ -40,6 +40,18 @@ Key mechanisms:
 - **Self-growing case history** — genuinely painful debugging episodes are written to `.claude/debug-log.md`, distilled into `patterns.md`, so the same pit isn't fallen into twice.
 - **Three safety nets** — rollback routes, verification-honesty grading (verified / reviewed / assumed), and anti-drift anchoring for long sessions.
 
+## 🧭 Companion skill: Compass
+
+Sentinel has a companion piece, [Compass](https://github.com/RayLi-Git/compass) — Sentinel watches *how you think*, Compass watches *how you execute to spec*.
+
+| Dimension | Sentinel | Compass |
+|---|---|---|
+| Watches | your thinking | your relationship to the PRD |
+| Trigger question | "Have I thought this through?" | "Am I following the PRD?" |
+| Applies to | any engineering task | implementation work with a spec |
+
+The two are often used together: think it through with Sentinel first, then execute to spec with Compass.
+
 ## Quick Start
 
 ```bash

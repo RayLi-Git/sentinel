@@ -40,6 +40,18 @@ Sentinel 把 **87 個思考習慣**——76 個世界名校思考習慣,加上 1
 - **會自我成長的病歷** — 真正夠痛的除錯經驗寫進 `.claude/debug-log.md`，濃縮成 `patterns.md`，讓同一個坑不踩第二次。
 - **三條安全網** — 撤退路線、證據強度分級（已驗證／已檢視／推測）、長對話防漂移回錨。
 
+## 🧭 配對 skill：Compass
+
+Sentinel 有個配對作品 [Compass](https://github.com/RayLi-Git/compass)——Sentinel 看「怎麼想」，Compass 看「怎麼照規格執行」。
+
+| 維度 | Sentinel | Compass |
+|---|---|---|
+| 看什麼 | 你的思考 | 你跟 PRD 的關係 |
+| 觸發問題 | 「我有想清楚嗎？」 | 「我有照 PRD 走嗎？」 |
+| 適用 | 任何工程任務 | 有 spec 的實作工作 |
+
+兩個常一起用：拿到 PRD 先用 Sentinel 想清楚，再用 Compass 照規格執行。
+
 ## 快速開始
 
 ```bash
