@@ -4,7 +4,7 @@
 
 # Sentinel — A Thinking OS for Vibe Coding
 
-> A Claude Code skill that acts as a senior engineer's thinking layer — stopping you from patching symptoms, looping at the surface, and shipping security gambles. It thinks *before* the code is written.
+> A Claude Code skill that acts as a senior engineer's thinking layer — stopping you from patching symptoms, looping at the surface, and shipping security gambles. It thinks *before* the code is written. Pairs with [Compass](https://github.com/RayLi-Git/compass) to form a complete toolkit: Sentinel watches "how you think," Compass watches "how you execute to spec."
 
 ![status](https://img.shields.io/badge/status-active-success)
 ![license](https://img.shields.io/badge/license-MIT-blue)
@@ -39,6 +39,18 @@ Key mechanisms:
 - **Shallow-vs-deep sensor** — red flags ("editing the same code a 3rd time", "adding a 3rd special-case `if`") force a stop and a root-cause hunt.
 - **Self-growing case history** — genuinely painful debugging episodes are written to `.claude/debug-log.md`, distilled into `patterns.md`, so the same pit isn't fallen into twice.
 - **Three safety nets** — rollback routes, verification-honesty grading (verified / reviewed / assumed), and anti-drift anchoring for long sessions.
+
+## 🧭 Companion skill: Compass
+
+Sentinel has a companion piece, [Compass](https://github.com/RayLi-Git/compass) — Sentinel watches *how you think*, Compass watches *how you execute to spec*.
+
+| Dimension | Sentinel | Compass |
+|---|---|---|
+| Watches | your thinking | your relationship to the PRD |
+| Trigger question | "Have I thought this through?" | "Am I following the PRD?" |
+| Applies to | any engineering task | implementation work with a spec |
+
+The two are often used together: think it through with Sentinel first, then execute to spec with Compass.
 
 ## Quick Start
 
