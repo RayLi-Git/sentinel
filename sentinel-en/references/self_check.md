@@ -24,6 +24,20 @@
 
 ---
 
+## Failure threshold: graded escalation (not "wait for the 3rd time" — break the loop on the 1st)
+
+The trigger isn't a "failure count" — it's "**am I about to try the same direction again without a new hypothesis**".
+
+| Signal | Response | Intensity |
+|---|---|---|
+| 1st failure / 1st urge to edit the same chunk | Soft check: "symptom or root cause? Is the next attempt the same direction?" Switch to a **different hypothesis** before acting | 🟡 ~2 lines |
+| 2nd time (same area fails again) | Weak pattern forming → list 2-3 hypotheses, stop blind retrying | 🟡 light diagnosis |
+| 3rd time | Force 🔴 full diagnostic mode + root-cause tree | 🔴 |
+
+> The red-flag table's "editing the same chunk for the 3rd time" = the hard line of the last row here (force 🔴); the first two rows catch it earlier.
+
+---
+
 ## What to do after a red flag (diagnostic mode steps)
 
 Red flag triggered → **exit "edit-code mode", enter "diagnostic mode"**:

@@ -70,6 +70,7 @@ When prod is on fire / demo is imminent — true emergencies — you may apply t
 - "Just like this for now, fix later" for the Nth time → that "later" is your future root-cause scene
 
 **Red flag tripped → exit "code-editing mode," enter "diagnosis mode"** (steps in `references/self_check.md`).
+**No need to wait for the 3rd failure**: on the 1st, stop repeating the same direction; on the 2nd, list hypotheses; on the 3rd, force 🔴 (graded escalation, see `references/self_check.md`).
 
 ### 🛡️ Security red flags — any one trips a forced halt for a security check (deep-teal dimension)
 - Pass `req.body`/`params`/URL params straight into a DB query, string concat, or exec → #untrusted-input #injection-prevention
