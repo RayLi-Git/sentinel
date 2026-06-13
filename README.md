@@ -4,7 +4,7 @@
 
 # Sentinel — A Thinking OS for Vibe Coding
 
-> A Claude Code skill that acts as a senior engineer's thinking layer — stopping you from patching symptoms, looping at the surface, and shipping security gambles. It thinks *before* the code is written. Pairs with [Compass](https://github.com/RayLi-Git/compass) to form a complete toolkit: Sentinel watches "how you think," Compass watches "how you execute to spec."
+> A Claude Code skill that acts as a senior engineer's thinking layer — stopping you from patching symptoms, looping at the surface, and shipping security gambles. It thinks *before* the code is written. Part of a three-skill toolchain with [Cartographer](https://github.com/RayLi-Git/cartographer) and [Compass](https://github.com/RayLi-Git/compass): **Cartographer draws the map → Compass builds to it → Sentinel stands guard.**
 
 ![status](https://img.shields.io/badge/status-active-success)
 ![license](https://img.shields.io/badge/license-MIT-blue)
@@ -51,6 +51,16 @@ Sentinel has a companion piece, [Compass](https://github.com/RayLi-Git/compass) 
 | Applies to | any engineering task | implementation work with a spec |
 
 The two are often used together: think it through with Sentinel first, then execute to spec with Compass.
+
+## 🗺️ The full toolchain (three together)
+
+> **Cartographer draws the map (creates the PRD) → Compass builds to it (no drift) → Sentinel stands guard throughout (how to think, no security shortcuts).**
+
+| Skill | Role | One line |
+|---|---|---|
+| [Cartographer](https://github.com/RayLi-Git/cartographer) | the cartographer | forces a fuzzy idea into a solid software PRD, section by section |
+| [Compass](https://github.com/RayLi-Git/compass) | the compass | build to spec, no drift, no dropped items |
+| **Sentinel** | the sentinel | thinking & security guard across all five stages |
 
 ## Quick Start
 
